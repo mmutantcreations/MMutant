@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=New+Rocker&display=swap');
 body {
-    background-image: url('../images/neurons.png');
+    background-image: url('./neurons.png');
     background-color: #fdb766e7;
     background-repeat: no-repeat;
     width: 100%;

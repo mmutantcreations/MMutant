@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=New+Rocker&display=swap');
 body {
   font-family: "finger paint";
 }
@@ -314,9 +315,15 @@ body {
     padding: 0px 5px;
   }
 }
-a {
-  color: inherit;        /* makes the link match surrounding text */
-  text-decoration: none; /* removes underline + blue styling */
+.englarge a {
+  text-decoration: none;
+  text-decoration-color: white; /* removes underline + blue styling */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.enlarge a:hover {
+  color: lime;
+  text-shadow: 0 0 10px lime;
+  transform: translateY(-2px);
 }
 .enlarge {
         
