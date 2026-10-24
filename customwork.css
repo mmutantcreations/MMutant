@@ -315,7 +315,7 @@ body {
   }
 }
 .englarge a {
-  text-decoration: none; /* removes underline + blue styling */
+  text-decoration-color: white; /* removes underline + blue styling */
   transition: color 0.3s ease, transform 0.3s ease;
 }
 .enlarge a:hover {
