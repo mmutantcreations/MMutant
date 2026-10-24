@@ -19,10 +19,13 @@
     font-size: 2em;
 
 }
+.bus {
+    width: 400px;
+    height: auto;
+}
 .card {
     text-align: center;
-    width: 50px;
-    height: auto;
+    
 }
 .myPic {
     text-align: center;
