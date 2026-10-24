@@ -315,6 +315,7 @@ body {
   }
 }
 .englarge a {
+  text-decoration: none;
   text-decoration-color: white; /* removes underline + blue styling */
   transition: color 0.3s ease, transform 0.3s ease;
 }
