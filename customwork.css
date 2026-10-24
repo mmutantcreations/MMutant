@@ -319,7 +319,8 @@ a {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 a:hover {
-  color: rgb(253, 253, 253);
+  color: lime;
+  text-shadow: 0 0 10px lime;
   transform: translateY(-2px);
 }
 .enlarge {
