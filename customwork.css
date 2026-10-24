@@ -314,11 +314,11 @@ body {
     padding: 0px 5px;
   }
 }
-a {
+.englarge a {
   text-decoration: none; /* removes underline + blue styling */
   transition: color 0.3s ease, transform 0.3s ease;
 }
-a:hover {
+.enlarge a:hover {
   color: lime;
   text-shadow: 0 0 10px lime;
   transform: translateY(-2px);
