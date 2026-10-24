@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  
+  <a href="../../Home/root/index.html">Home</a>
+  <a href="../../CustomWork/root/Customwork.html">What I Do</a>
+  <a href="../../DifferentMediums/root/Differentmediums.html">Different Mediums</a>
+  <a href="../../Who I Am/root/About.html">Who?</a>
+  <a href="../../InTheWorks/root/intheworks.html">Coming Soon!</a>
+  
+<BR><BR>
+<a href="https://youtube.com/@millennialmutant?si=L1ac5iG7861TUNUW" target="_blank">
+    <i class="fa-brands fa-youtube" style="font-size: 30px; color: rgba(255, 0, 0, 0.781);">Visit My Channel</i>
+  </a>
+ 
+</div>
+
+  <button class="openbtn" onclick="openNav()">Menu<br>☰</button>
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "350px";
+  document.getElementById("mySidepanel").style.height = "400px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+  document.getElementById("mySidepanel").style.height = "0";
+}
+</script>    
+<div class="myPic">
+<img class="img" src="../images/me.jpg">
+</div>
+<div class="Q">
+<h2 class="h2">Sign Up to Keep Up...</h2>
+<p><center>Got Questions...?</center></p>
+<p><center>Got Ideas...?</center></p>
+<p><center>Let's Talk!</center></p>
+</div>
+<form action="https://formspree.io/f/mbggrekq" method="POST">
+  <div class="container" style="background-color:white">
+    <input type="text" style="font-family: Finger Paint" placeholder="Name" name="name" required><br>
+    <input type="text" style="font-family: Finger Paint"placeholder="Email address (if you prefer)" name="mail"><br>
+    <input type="text" style="font-family: Finger Paint"placeholder="Phone (if you prefer)" name="mail"><br>
+    <textarea id="comments" class="input-textarea" name="comment" placeholder="Inquiries Welcomed..."></textarea><br>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe" required> Keep Me Posted!
+    </label>
+  </div>
+
+  <div class="submit">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+</div>
+<h2 class="h2"><center>Or...Find Me</center></h2>
+
+    <div class="mm-social-buttons">
+  <ul class="mm-social-buttons__list">
+    <li class="mm-social-buttons__item">
+      <a
+        class="mm-social-buttons__link"
+        href="https://www.facebook.com/people/Millennial-Mutant/61563839585692/?sk=about"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit Millennial Mutant on Facebook"
+      >
+        <span class="mm-social-buttons__icon" aria-hidden="true">f</span>
+        <span class="mm-social-buttons__text">Facebook</span>
+      </a>
+    </li>
+    <li class="mm-social-buttons__item">
+      <a
+        class="mm-social-buttons__link"
+        href="https://www.tiktok.com/@eye_c_rgb"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit eye_c_rgb on TikTok"
+      >
+        <span class="mm-social-buttons__icon" aria-hidden="true">♪</span>
+        <span class="mm-social-buttons__text">TikTok</span>
+      </a>
+    </li>
+    <li class="mm-social-buttons__item">
+      <a
+        class="mm-social-buttons__link"
+        href="https://www.instagram.com/millennial_mutant/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit millennial_mutant on Instagram"
+      >
+        <span class="mm-social-buttons__icon" aria-hidden="true">◎</span>
+        <span class="mm-social-buttons__text">Instagram</span>
+      </a>
+    </li>
+  </ul>
+</div>
+</body>
+
+</html>
