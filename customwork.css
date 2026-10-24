@@ -315,7 +315,6 @@ body {
   }
 }
 a {
-  color: inherit;        /* makes the link match surrounding text */
   text-decoration: none; /* removes underline + blue styling */
   transition: color 0.3s ease, transform 0.3s ease;
 }
