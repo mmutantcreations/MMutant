@@ -1,6 +1,5 @@
-
 body {
-    background-image: url('../images/neurons2.png');
+    background-image: url('./neurons2.png');
     background-color: #fdb766e7;
     background-repeat: no-repeat;
     width: 100%;
@@ -13,10 +12,10 @@ body {
   width: 0;
   position: fixed;
   z-index: 1;
-  height: 250px;
+  height: 300px;
   top: 0;
   left: 0;
-  background-color: #79133f;
+  background-color: #75143e;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 40px;
@@ -74,13 +73,19 @@ body {
 .menu-container:hover .hamburger-icon {
   margin-right: 5px;
 }
-
-
+.img {
+    box-shadow: 0 12px 13px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+    width: 200px;
+}
+.img:hover {
+    transform: scale(1.1);
+}
 .logo {
-   display: block;
-   margin: auto;
-   margin-top: 50px;
-   width: 230px;
+   margin-left: 25px;
+   margin-top: 30px;
+   width: 150px;
    border-radius: 20%;
 }
 
@@ -106,19 +111,6 @@ body {
     font-size: 30px;
     color: #f7f6f6;
     font-family: Finger Paint;
-}
-.website {
-    text-align: center;
-}
-.site {
-    box-shadow: 0 12px 13px rgba(0, 0, 0, 0.3);
-    border-radius: 10%;
-    width: 200px;
-    transition: transform 0.3s ease;
-}
-.site:hover {
-    transform: scale(1.1);
-
 }
 .gears-embed {
     display: block;
@@ -153,12 +145,11 @@ body {
     box-sizing: border-box;
   }
 ul {
-  
   margin:0;
   padding:0;
   font-family: 'Finger Paint', sans-serif;
   position:absolute;
-  top: 410%;
+  top: 250%;
   left:50%;
   transform:translate(-50%, -50%);
   font-size: 1.2em;
@@ -180,6 +171,7 @@ ul li a .fa {
 }
 
 ul li a span {
+  border-radius: 18px;
   padding:0;
   margin:0;
   position:absolute;
